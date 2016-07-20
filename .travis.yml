@@ -1,0 +1,10 @@
+language : c
+compiler : gcc
+before_install :
+    - echo "Hello Before Install"
+install : 
+    - echo "Hello Install"
+script :
+    - gcc hello.c -o hello
+    - ./hello
+
